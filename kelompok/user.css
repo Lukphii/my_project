@@ -1,0 +1,28 @@
+#navbar{
+    margin: auto;
+    height: 25px;
+    background-color: blue;
+    text-align: right;
+}
+p{
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+table{
+    margin: auto;
+    height: 25px;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+text{
+    text-align: justify;
+}
+
+.kelompok{
+    margin: auto;
+    height: 80px;
+    text-align: center;
+}
