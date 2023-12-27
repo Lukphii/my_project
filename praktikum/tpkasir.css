@@ -1,0 +1,30 @@
+html, body{
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    background-color: #191919;
+    color: white;
+    padding: 20px;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    margin-top: -80px;
+    border-radius: 50%;
+}
+
+table, tr, td {
+    text-align: center;
+}
+
+#footer{
+    background-color: #191919;
+    color: #6d6d6d;
+    padding: 20px;
+    text-align: center;
+}

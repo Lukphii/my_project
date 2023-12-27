@@ -1,0 +1,58 @@
+html, body{
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    background-color: #191919;
+    color: white;
+    padding: 20px;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    margin-top: -80px;
+    border-radius: 50%;
+}
+
+#navbar{
+    background-color: white;
+    margin: auto;
+    height: 25px;
+    text-align: right;
+    box-shadow: 2px 2px 12px #191919;
+}
+
+a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #505050;
+}
+
+#home{
+    color: black;
+}
+
+#about{
+    margin-right: 90px;
+}
+
+.menu{
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+}
+
+#footer{
+    background-color: #191919;
+    color: #6d6d6d;
+    padding: 20px;
+    text-align: center;
+}
