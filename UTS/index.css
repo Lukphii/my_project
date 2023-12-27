@@ -1,0 +1,156 @@
+body{
+    background-color:white;
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+section{
+    width:100%;
+    height: 550px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color: white;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+    
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color:#505050;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+nav ul li a :hover{
+    color: #505050;
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text0{
+    color: black;
+    font-weight: bold;
+}
+
+.text1 p:nth-child(1){
+    font-family: Calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text1 p:nth-child(2){
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #191919;
+    font-size: 60px;
+}
+
+.text1 p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    color: #403e3e;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text1 p:nth-child(4){
+    font-family: Calibri;
+    color: #403e3e;
+    font-size: 15x;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.text1 p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+
+.text1{
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+
+.text2{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+.gambar1{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+}
+
+.icon1 a{
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:30px 10px;
+    border-radius:80%;
+}
+
+.icon1{
+    display: flex;
+}
+
+.icon1 i{
+    color: black;
+}
+
+.icon1 a :hover{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+
+.design{
+    color:#565555;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+}
